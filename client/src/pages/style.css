@@ -1,0 +1,18 @@
+body{
+    text-align: left;
+}
+
+.bttn{
+    float: right;
+    margin-right: 5px;
+}
+
+#synopsis,img{
+    float:left;
+    text-justify: inter-word;
+    text-align: left;
+}
+.searchResult{
+    margin-top: 52px;
+
+}
