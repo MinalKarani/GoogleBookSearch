@@ -69,7 +69,7 @@ class Books extends Component {
                       <strong>
                         {book.title} by {book.authors}
                       </strong>
-                      <a href={book.link}>
+                      <a href={book.link} target="_blank">
                       <button type="button" className="btn btn-primary mt-3 bttn">View</button>
                       </a>
                       <button type="button"  id={book.id} onClick={() => this.deleteBook(book._id)} className="btn btn-primary mt-3 bttn">Save</button>

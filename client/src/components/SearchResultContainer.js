@@ -11,7 +11,7 @@ class SearchResultContainer extends Component {
 
   // When this component mounts, search the Google API for Books of Flowers title
   componentDidMount() {
-    this.searchBook("Flowers");
+    this.searchBook("");
   }
 
   searchBook = query => {
@@ -34,7 +34,7 @@ class SearchResultContainer extends Component {
       authors: thisBook.volumeInfo.authors,
       synopsis: thisBook.volumeInfo.description,
       image: thisBook.volumeInfo.imageLinks ? thisBook.volumeInfo.imageLinks.smallThumbnail : null,
-      link: thisBook.volumeInfo.canonicalVolumeLink
+      link: thisBook.volumeInfo.previewLink
 
     };
 

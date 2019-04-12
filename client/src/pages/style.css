@@ -5,6 +5,7 @@ body{
 .bttn{
     float: right;
     margin-right: 5px;
+    background-color: black;
 }
 
 #synopsis,img{

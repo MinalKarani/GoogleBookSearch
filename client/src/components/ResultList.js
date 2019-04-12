@@ -23,7 +23,7 @@ class ResultList extends Component {
         <span id="title">{result.volumeInfo.title} by {result.volumeInfo.authors}</span>
         </strong>
         </div>
-        <a href={result.volumeInfo.previewLink}>
+        <a href={result.volumeInfo.previewLink} target="_blank">
         <button type="button" className="btn btn-primary mt-3 bttn">View</button>
         </a>
         <button type="button"  id={result.id} onClick={this.props.saveAction} className="btn btn-primary mt-3 bttn">Save</button>
